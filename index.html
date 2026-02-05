@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Digital Business Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 360px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #0073b1; /* LinkedIn blue */
+        }
+
+        .card h2 {
+            margin: 8px 0;
+            color: #222;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .card h4 {
+            margin: 5px 0 18px;
+            color: #555;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        .info {
+            font-size: 14px;
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .info p {
+            margin: 6px 0;
+        }
+
+        .info span {
+            font-weight: 600;
+            color: #0073b1;
+        }
+
+        .linkedin-btn {
+            display: inline-block;
+            background: #0073b1;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+
+        .linkedin-btn:hover {
+            background: #005582;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="siri2.jpg" alt="Profile Picture">
+        <h2>Siri Chandana</h2>
+        <h4>Student | Malla Reddy University</h4>
+        <div class="info">
+            <p><span>Email:</span> chandanasiri504@gmail.com</p>
+            <p><span>Phone:</span> +91 ******0210</p>
+            <p><span>Location:</span> Hyderabad, Telangana</p>
+        </div>
+        <a href="https://www.linkedin.com/in/Siri Chandana Sadula" class="linkedin-btn" target="_blank">View LinkedIn Profile</a>
+    </div>
+</body>
+</html>
